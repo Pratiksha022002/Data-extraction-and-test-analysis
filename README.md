@@ -99,6 +99,8 @@ for url in url_list:
     #adding all the data to the master dataframe
     article_with_content = pd.concat([article_with_content, article_text], ignore_index=True)
 ```
+<img width="515" alt="Screenshot 2024-03-08 021601" src="https://github.com/Pratiksha022002/Data-extraction-and-test-analysis/assets/99002937/6976cc4c-feb4-4e2b-a7e4-dd7630a4bc4a">
+
 ---
 **Sentiment Analysis:**
 - NLTK's Natural Language Toolkit is used for sentiment analysis.
@@ -178,6 +180,7 @@ plt.ylim(0, 10)
 plt.show()
 
 ```
+<img width="350" alt="Screenshot 2024-03-08 021452" src="https://github.com/Pratiksha022002/Data-extraction-and-test-analysis/assets/99002937/bf967f23-bad8-488f-9160-d6a6669a8bd1">
 
 ```python
 plt.figure(figsize=(12, 4))
@@ -188,6 +191,8 @@ plt.xlabel('Polarity Score')
 plt.ylabel('Frequency')
 plt.grid(True)
 ```
+<img width="389" alt="Screenshot 2024-03-08 021502" src="https://github.com/Pratiksha022002/Data-extraction-and-test-analysis/assets/99002937/3da3db36-09bd-4460-86b0-52ae53e0cee7">
+
 ---
 
 **Readability Analysis:**
@@ -259,6 +264,7 @@ plt.grid(True)
 plt.show()
 
 ```
+<img width="380" alt="Screenshot 2024-03-08 021512" src="https://github.com/Pratiksha022002/Data-extraction-and-test-analysis/assets/99002937/9a4232ec-ffca-4211-9204-cd4af5f7ac77">
 
 
 
@@ -271,6 +277,8 @@ plt.xlabel('Percentage of Complex Words')
 plt.ylabel('Frequency')
 plt.grid(True)
 ```
+<img width="357" alt="Screenshot 2024-03-08 021520" src="https://github.com/Pratiksha022002/Data-extraction-and-test-analysis/assets/99002937/5cb97a4c-cbad-46ac-9262-9dde421b0c79">
+
 
 ```python
 plt.figure(figsize=(6, 4))
@@ -281,6 +289,8 @@ plt.ylabel('Frequency')
 plt.grid(True)
 plt.show()
 ```
+<img width="414" alt="Screenshot 2024-03-08 021542" src="https://github.com/Pratiksha022002/Data-extraction-and-test-analysis/assets/99002937/8bbd009f-ae5d-49ad-b520-3dd6db4149ee">
+
 ---
 **Data Processing:**
 - Sentiment and readability analysis are performed on each article content.
@@ -310,4 +320,6 @@ for sublist in analysis_list:
 # create the DataFrame
 df_analysis = pd.DataFrame(dict_list)
 ```
+<img width="836" alt="Screenshot 2024-03-08 021641" src="https://github.com/Pratiksha022002/Data-extraction-and-test-analysis/assets/99002937/1477b271-fb08-4f65-a3af-7da76606e208">
+
 ---
